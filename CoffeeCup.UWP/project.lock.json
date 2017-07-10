@@ -2,39 +2,32 @@
   "version": 2,
   "targets": {
     "UAP,Version=v10.0": {
-      "Microsoft.Azure.Mobile.Client/3.1.0": {
+      "Microsoft.Azure.Mobile.Client/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Linq.Queryable": "4.0.1"
         },
         "compile": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         },
         "runtime": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
-      "Microsoft.Azure.Mobile.Client.SQLiteStore/3.1.0": {
+      "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Azure.Mobile.Client": "3.1.0",
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4",
-          "SQLitePCLRaw.bundle_green": "1.1.2",
-          "SQLitePCLRaw.core": "1.1.2"
+          "Microsoft.Azure.Mobile.Client": "4.0.1",
+          "NETStandard.Library": "1.6.1",
+          "SQLitePCLRaw.bundle_green": "1.1.2"
         },
         "compile": {
-          "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll": {}
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         },
         "runtime": {
-          "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll": {}
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -620,7 +613,7 @@
       "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.2": {
         "type": "package",
         "build": {
-          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
+          "build/_._": {}
         },
         "runtimeTargets": {
           "runtimes/win10-arm/native/e_sqlite3.dll": {
@@ -2623,39 +2616,32 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
-      "Microsoft.Azure.Mobile.Client/3.1.0": {
+      "Microsoft.Azure.Mobile.Client/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Linq.Queryable": "4.0.1"
         },
         "compile": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         },
         "runtime": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
-      "Microsoft.Azure.Mobile.Client.SQLiteStore/3.1.0": {
+      "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Azure.Mobile.Client": "3.1.0",
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4",
-          "SQLitePCLRaw.bundle_green": "1.1.2",
-          "SQLitePCLRaw.core": "1.1.2"
+          "Microsoft.Azure.Mobile.Client": "4.0.1",
+          "NETStandard.Library": "1.6.1",
+          "SQLitePCLRaw.bundle_green": "1.1.2"
         },
         "compile": {
-          "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll": {}
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         },
         "runtime": {
-          "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll": {}
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -3458,7 +3444,7 @@
           "runtimes/win10-arm/native/e_sqlite3.dll": {}
         },
         "build": {
-          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
+          "build/_._": {}
         }
       },
       "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.2": {
@@ -5263,39 +5249,32 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
-      "Microsoft.Azure.Mobile.Client/3.1.0": {
+      "Microsoft.Azure.Mobile.Client/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Linq.Queryable": "4.0.1"
         },
         "compile": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         },
         "runtime": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
-      "Microsoft.Azure.Mobile.Client.SQLiteStore/3.1.0": {
+      "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Azure.Mobile.Client": "3.1.0",
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4",
-          "SQLitePCLRaw.bundle_green": "1.1.2",
-          "SQLitePCLRaw.core": "1.1.2"
+          "Microsoft.Azure.Mobile.Client": "4.0.1",
+          "NETStandard.Library": "1.6.1",
+          "SQLitePCLRaw.bundle_green": "1.1.2"
         },
         "compile": {
-          "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll": {}
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         },
         "runtime": {
-          "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll": {}
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -6137,7 +6116,7 @@
           "runtimes/win10-arm/native/e_sqlite3.dll": {}
         },
         "build": {
-          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
+          "build/_._": {}
         }
       },
       "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.2": {
@@ -7942,39 +7921,32 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
-      "Microsoft.Azure.Mobile.Client/3.1.0": {
+      "Microsoft.Azure.Mobile.Client/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Linq.Queryable": "4.0.1"
         },
         "compile": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         },
         "runtime": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
-      "Microsoft.Azure.Mobile.Client.SQLiteStore/3.1.0": {
+      "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Azure.Mobile.Client": "3.1.0",
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4",
-          "SQLitePCLRaw.bundle_green": "1.1.2",
-          "SQLitePCLRaw.core": "1.1.2"
+          "Microsoft.Azure.Mobile.Client": "4.0.1",
+          "NETStandard.Library": "1.6.1",
+          "SQLitePCLRaw.bundle_green": "1.1.2"
         },
         "compile": {
-          "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll": {}
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         },
         "runtime": {
-          "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll": {}
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -8786,7 +8758,7 @@
           "runtimes/win10-x64/native/e_sqlite3.dll": {}
         },
         "build": {
-          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
+          "build/_._": {}
         }
       },
       "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.2": {
@@ -10591,39 +10563,32 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
-      "Microsoft.Azure.Mobile.Client/3.1.0": {
+      "Microsoft.Azure.Mobile.Client/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Linq.Queryable": "4.0.1"
         },
         "compile": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         },
         "runtime": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
-      "Microsoft.Azure.Mobile.Client.SQLiteStore/3.1.0": {
+      "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Azure.Mobile.Client": "3.1.0",
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4",
-          "SQLitePCLRaw.bundle_green": "1.1.2",
-          "SQLitePCLRaw.core": "1.1.2"
+          "Microsoft.Azure.Mobile.Client": "4.0.1",
+          "NETStandard.Library": "1.6.1",
+          "SQLitePCLRaw.bundle_green": "1.1.2"
         },
         "compile": {
-          "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll": {}
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         },
         "runtime": {
-          "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll": {}
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -11474,7 +11439,7 @@
           "runtimes/win10-x64/native/e_sqlite3.dll": {}
         },
         "build": {
-          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
+          "build/_._": {}
         }
       },
       "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.2": {
@@ -13279,39 +13244,32 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
-      "Microsoft.Azure.Mobile.Client/3.1.0": {
+      "Microsoft.Azure.Mobile.Client/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Linq.Queryable": "4.0.1"
         },
         "compile": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         },
         "runtime": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
-      "Microsoft.Azure.Mobile.Client.SQLiteStore/3.1.0": {
+      "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Azure.Mobile.Client": "3.1.0",
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4",
-          "SQLitePCLRaw.bundle_green": "1.1.2",
-          "SQLitePCLRaw.core": "1.1.2"
+          "Microsoft.Azure.Mobile.Client": "4.0.1",
+          "NETStandard.Library": "1.6.1",
+          "SQLitePCLRaw.bundle_green": "1.1.2"
         },
         "compile": {
-          "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll": {}
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         },
         "runtime": {
-          "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll": {}
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -14123,7 +14081,7 @@
           "runtimes/win10-x86/native/e_sqlite3.dll": {}
         },
         "build": {
-          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
+          "build/_._": {}
         }
       },
       "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.2": {
@@ -15928,39 +15886,32 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
-      "Microsoft.Azure.Mobile.Client/3.1.0": {
+      "Microsoft.Azure.Mobile.Client/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Linq.Queryable": "4.0.1"
         },
         "compile": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         },
         "runtime": {
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
-          "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
+          "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll": {}
         }
       },
-      "Microsoft.Azure.Mobile.Client.SQLiteStore/3.1.0": {
+      "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Azure.Mobile.Client": "3.1.0",
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
-          "Newtonsoft.Json": "6.0.4",
-          "SQLitePCLRaw.bundle_green": "1.1.2",
-          "SQLitePCLRaw.core": "1.1.2"
+          "Microsoft.Azure.Mobile.Client": "4.0.1",
+          "NETStandard.Library": "1.6.1",
+          "SQLitePCLRaw.bundle_green": "1.1.2"
         },
         "compile": {
-          "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll": {}
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         },
         "runtime": {
-          "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll": {}
+          "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -16811,7 +16762,7 @@
           "runtimes/win10-x86/native/e_sqlite3.dll": {}
         },
         "build": {
-          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
+          "build/_._": {}
         }
       },
       "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.2": {
@@ -18617,56 +18568,36 @@
     }
   },
   "libraries": {
-    "Microsoft.Azure.Mobile.Client/3.1.0": {
-      "sha512": "L/RF/9A/mMFifQsTBRmSPV3UpvG11LR+0vsm7KKkOW7pLeRmsAWFtfKRUKoEfgdi2XoOFSLkXk88w8jVXV5uJA==",
+    "Microsoft.Azure.Mobile.Client/4.0.1": {
+      "sha512": "cOEE1YSTb6WTCfMQFdRCDx8iH+KKv3fwNEGldPtvQPi9+En8NQVRqOrkuBFck+drQ9JFUYOvgjBC+qJGYkSwLA==",
       "type": "package",
-      "path": "microsoft.azure.mobile.client/3.1.0",
+      "path": "microsoft.azure.mobile.client/4.0.1",
       "files": [
-        "lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.Ext.dll",
-        "lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.Ext.xml",
-        "lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/Xamarin.iOS10/Microsoft.WindowsAzure.Mobile.xml",
-        "lib/monoandroid/Microsoft.WindowsAzure.Mobile.Ext.dll",
-        "lib/monoandroid/Microsoft.WindowsAzure.Mobile.Ext.xml",
-        "lib/monoandroid/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/monoandroid/Microsoft.WindowsAzure.Mobile.xml",
-        "lib/monotouch/Microsoft.WindowsAzure.Mobile.Ext.dll",
-        "lib/monotouch/Microsoft.WindowsAzure.Mobile.Ext.xml",
-        "lib/monotouch/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/monotouch/Microsoft.WindowsAzure.Mobile.xml",
-        "lib/net45/Microsoft.WindowsAzure.Mobile.Ext.XML",
-        "lib/net45/Microsoft.WindowsAzure.Mobile.Ext.dll",
-        "lib/net45/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/net45/Microsoft.WindowsAzure.Mobile.xml",
-        "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll",
-        "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.pri",
-        "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.xml",
-        "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/netcore45/Microsoft.WindowsAzure.Mobile.xml",
-        "lib/portable-win+net45+wp8+wpa81+monotouch+monoandroid/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/portable-win+net45+wp8+wpa81+monotouch+monoandroid/Microsoft.WindowsAzure.Mobile.xml",
-        "lib/wp8/Microsoft.WindowsAzure.Mobile.Ext.dll",
-        "lib/wp8/Microsoft.WindowsAzure.Mobile.Ext.xml",
-        "lib/wp8/Microsoft.WindowsAzure.Mobile.UI.dll",
-        "lib/wp8/Microsoft.WindowsAzure.Mobile.UI.xml",
-        "lib/wp8/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/wp8/Microsoft.WindowsAzure.Mobile.xml",
-        "lib/wpa81/Microsoft.WindowsAzure.Mobile.Ext.dll",
-        "lib/wpa81/Microsoft.WindowsAzure.Mobile.Ext.xml",
-        "lib/wpa81/Microsoft.WindowsAzure.Mobile.dll",
-        "lib/wpa81/Microsoft.WindowsAzure.Mobile.xml",
-        "microsoft.azure.mobile.client.3.1.0.nupkg.sha512",
+        "lib/monoandroid70/Microsoft.Azure.Mobile.Client.dll",
+        "lib/monoandroid70/Microsoft.Azure.Mobile.Client.xml",
+        "lib/net45/Microsoft.Azure.Mobile.Client.dll",
+        "lib/net45/Microsoft.Azure.Mobile.Client.xml",
+        "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.dll",
+        "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.xml",
+        "lib/uap10.0/Microsoft.Azure.Mobile.Client.dll",
+        "lib/uap10.0/Microsoft.Azure.Mobile.Client.pri",
+        "lib/uap10.0/Microsoft.Azure.Mobile.Client.xml",
+        "lib/xamarinios10/Microsoft.Azure.Mobile.Client.dll",
+        "lib/xamarinios10/Microsoft.Azure.Mobile.Client.xml",
+        "microsoft.azure.mobile.client.4.0.1.nupkg.sha512",
         "microsoft.azure.mobile.client.nuspec"
       ]
     },
-    "Microsoft.Azure.Mobile.Client.SQLiteStore/3.1.0": {
-      "sha512": "UHBdSCsofsd45Pk8OBD4Wja9d+doYL3/4BindcRMYngX5jTDZPn872Z+42rt4RV1JOUirWRQ7QqmK4ampTeOgg==",
+    "Microsoft.Azure.Mobile.Client.SQLiteStore/4.0.1": {
+      "sha512": "jpD5c72aWNPr+gnmWTZXZQlC2kxWWYgFFWJk09h/FsFaf23SEk3cToFXaPWeb5YsBzN8eBbJnLY45DHsl4C0bQ==",
       "type": "package",
-      "path": "microsoft.azure.mobile.client.sqlitestore/3.1.0",
+      "path": "microsoft.azure.mobile.client.sqlitestore/4.0.1",
       "files": [
-        "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll",
-        "lib/portable-win+net45+wp8+wpa81+monotouch10+monoandroid10+xamarinios10/Microsoft.WindowsAzure.Mobile.SQLiteStore.xml",
-        "microsoft.azure.mobile.client.sqlitestore.3.1.0.nupkg.sha512",
+        "lib/net45/Microsoft.Azure.Mobile.Client.SQLiteStore.dll",
+        "lib/net45/Microsoft.Azure.Mobile.Client.SQLiteStore.xml",
+        "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.dll",
+        "lib/netstandard1.4/Microsoft.Azure.Mobile.Client.SQLiteStore.xml",
+        "microsoft.azure.mobile.client.sqlitestore.4.0.1.nupkg.sha512",
         "microsoft.azure.mobile.client.sqlitestore.nuspec"
       ]
     },
@@ -27862,8 +27793,8 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.Azure.Mobile.Client >= 3.1.0",
-      "Microsoft.Azure.Mobile.Client.SQLiteStore >= 3.1.0",
+      "Microsoft.Azure.Mobile.Client >= 4.0.1",
+      "Microsoft.Azure.Mobile.Client.SQLiteStore >= 4.0.1",
       "Microsoft.Bcl >= 1.1.10",
       "Microsoft.Bcl.Build >= 1.0.21",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.3.3",
@@ -27896,8 +27827,8 @@
       }
     },
     "dependencies": {
-      "Microsoft.Azure.Mobile.Client": "3.1.0",
-      "Microsoft.Azure.Mobile.Client.SQLiteStore": "3.1.0",
+      "Microsoft.Azure.Mobile.Client": "4.0.1",
+      "Microsoft.Azure.Mobile.Client.SQLiteStore": "4.0.1",
       "Microsoft.Bcl": "1.1.10",
       "Microsoft.Bcl.Build": "1.0.21",
       "Microsoft.Net.Http": "2.2.29",
